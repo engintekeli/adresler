@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic';
-const LogosTable = dynamic(() => import('@/components/LogosTable'), { ssr: false });
+const LogosTable = dynamic(() => import('../components/LogosTable'), { ssr: false });
 export default function Page(){
   return (
     <div>
