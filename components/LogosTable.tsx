@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useMemo, useState } from 'react';
-import { supabase } from '@/lib/supabaseClient';
+import { supabase } from '../lib/supabaseClient'
 
 type Row = { name: string | null; shorturl: string | null; longurl: string | null; clicks: number | null; rank: number | null; };
 
